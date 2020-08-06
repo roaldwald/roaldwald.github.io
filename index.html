@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roald Portfolio</title>
+    <style>
+        @import url('style.css');
+        @import url('public/basic-grid.css');
+    </style>
+    
+    <!-- <link rel="stylesheet" href="micromodal.css"> -->
+    
+</head>
+<body>
+    <div class="container">
+        <a href="#" id="navbarLink" class="close-menu" onclick="toggleNavbarMenu()"><i id="navbarIcon" class="material-icons icon">menu</i></a>
+        <nav class="navbar navbar-close" id="navbar">
+            <ul>
+                <li><a href="#A">Home</a></li>
+                <li><a href="#B">Projects</a></li>
+                <li><a href="#C">Skills</a></li>
+                <li><a href="#D">Experience</a></li>
+                <li><a href="#E">Contact</a></li>
+                <li>
+                    <a href="https://github.com/galanoroald"><i class="fa fa-github icon" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+
+            <section id="A" style="background: url('https://source.unsplash.com/pJadQetzTkI/1600x900') no-repeat center center/cover;">   
+                <h1>Roald Galano</h1>
+                <p>Lorem Ipsum, i am not a bad man huhuhu</p>
+            </section>
+
+            
+            <section id="B" style="background: url('https://source.unsplash.com/jmJ62_Zq1bo/1600x900') no-repeat center center/cover;">   
+                <h1>Projects</h1>
+                <div class="basic-grid" style="--columnCount: 2; --columnSizeX: 400px; --columnSizeY: 500px;">
+                    <div
+                        class="card card-tall card-wide project"
+                        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
+                    >
+                        
+                        <div class="project-description">
+                            <div class="title">Title</div>
+                            Project description in which I pretend to be productive in my projects.
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div
+                        class="card card-tall card-wide project"
+                        style="background-image:url('https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=598&q=80')"
+                    >
+                        
+                        <div class="project-description">
+                            <div class="title">Title</div>
+                            Project description in which I pretend to be productive in my projects.
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div
+                        class="card card-tall card-wide project"
+                        style="background-image:url('https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=598&q=80')"
+                    >
+                        
+                        <div class="project-description">
+                            <div class="title">Title</div>
+                            Project description in which I pretend to be productive in my projects.
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div
+                        class="card card-tall card-wide project"
+                        style="background-image:url('https://images.unsplash.com/photo-1561344640-2453889cde5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=617&q=80')"
+                    >
+                        
+                        <div class="project-description">
+                            <div class="title">Title</div>
+                            Project description in which I pretend to be productive in my projects.
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="C" style="background: url('https://source.unsplash.com/j3LOP2unmX0/1600x900') no-repeat center center/cover;">   
+                <h1>Skills</h1>
+                <div class="basic-grid" style="--columnCount: 2; --columnSizeX: 200px; --columnSizeY: 50px;">
+                    <div class="card skill">
+                        <div class="skill-name">C#</div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="card skill">
+                        <div class="skill-name">Php</div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="card skill">
+                        <div class="skill-name">ReactJS</div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="card skill">
+                        <div class="skill-name">NodeJS</div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="D" style="background: url('https://source.unsplash.com/x7FxMPZy8xI/1600x900') no-repeat center center/cover;">   
+                <h1>Experience</h1>
+                <div class="basic-grid" style="--columnCount: 2; --columnSizeX: 500px; --columnSizeY: 200px;">
+                    <div class="card experience">
+                        <h1 class="role">Quality Assurance for Graphic Design</h1>
+                        <span class="company">Ripe Concepts Inc.</span>
+                        <p class="description">2018</p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="card experience">
+                        <h1 class="role">Quality Assurance for Graphic Design</h1>
+                        <span class="company">Ripe Concepts Inc.</span>
+                        <p class="description">2018</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="E" style="background: url('assets/image_01.jpg') no-repeat center/cover;">   
+                <h1>Contact</h1>
+                <div class="contact-card">
+                    <div class="contact-field">
+                        <span class="head"><b>Roald Galano</b></span>
+                    </div>
+                    <div class="contact-field">
+                        <span><a href="mailto:galanoroald@gmail.com?subject=Hello, Roald!">galanoroald@gmail.com</a></span>
+                    </div>
+                    <div class="contact-field">
+                        <span>#0925 111 1111</span>
+                    </div>
+                    <div class="contact-field head" style="padding-top: 20px;">
+                        <span class="head"><b>Check my stuff out</b></span>
+                    </div>
+                    <div class="contact-field">
+                        <a href="https://github.com/galanoroald"><i class="fa fa-github icon" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+                        <a href="https://orwald.itch.io/"><i class="icon"><img src="https://static.itch.io/images/itchio-textless-white.svg" width="30" height="30" style="margin-bottom: -5px"></i></a>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
