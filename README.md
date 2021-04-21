@@ -1,3 +1,3 @@
-# Responsive Animated CSS Grid Examples
+# Portfolio
 
-Watch the full [CSS Grid Video Tutorial](https://youtu.be/705XCEruZFs) on YouTube
+This is a Single Page Portfolio I created for application purposes.

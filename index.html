@@ -4,162 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Roald Portfolio</title>
+    <title>Roald Galano Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
-        @import url('style.css');
-        @import url('public/basic-grid.css');
+        @import url('main.css');
     </style>
-    
-    <!-- <link rel="stylesheet" href="micromodal.css"> -->
     
 </head>
 <body>
-    <div class="container">
-        <a href="#" id="navbarLink" class="close-menu" onclick="toggleNavbarMenu()"><i id="navbarIcon" class="material-icons icon">menu</i></a>
-        <nav class="navbar navbar-close" id="navbar">
-            <ul>
-                <li><a href="#A">Home</a></li>
-                <li><a href="#B">Projects</a></li>
-                <li><a href="#C">Skills</a></li>
-                <li><a href="#D">Experience</a></li>
-                <li><a href="#E">Contact</a></li>
-                <li>
-                    <a href="https://github.com/galanoroald"><i class="fa fa-github icon" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
-                </li>
-            </ul>
-        </nav>
+    <main class="container">
+        <!-- <div class="super-line" data-aos="fade" data-aos-delay="500" data-aos-duration="1000"></div> -->
+        <div class="super-box" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000"><i class="fa fa-arrow-down " aria-hidden="true"></i></div>
+
+        <section id="A" style="--section-height: 80vh;">
+            <h1 class="main-header" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">Roald Galano</h1>
+            <p data-aos="fade-left" data-aos-delay="400" data-aos-duration="2000">Web & Game Developer</p>
+        </section>
+
+        <section id="B" style="--section-height: 50vh; --margin-top: 100px; --margin-bot: 100px;">   
+            <div class="section-content">
+                <h1 class="section-content-title" data-aos="zoom-out" data-aos-delay="150"><span>About Me</span></h1>
+                <p data-aos="zoom-out" data-aos-delay="200">
+                    I’m a developer, passionate in improving my career development, and learning new things with other people.
+                </p>
+                <p data-aos="zoom-out" data-aos-delay="200">
+                    I’m experienced in Game Development and Design with additional experience with Web Development and UX/UI Design.
+                </p>
+                
+            </div>
+        </section>
         
-        <div class="content">
-
-            <section id="A" style="background: url('https://source.unsplash.com/pJadQetzTkI/1600x900') no-repeat center center/cover;">   
-                <h1>Roald Galano</h1>
-                <p>Lorem Ipsum, i am not a bad man huhuhu</p>
-            </section>
-
-            
-            <section id="B" style="background: url('https://source.unsplash.com/jmJ62_Zq1bo/1600x900') no-repeat center center/cover;">   
-                <h1>Projects</h1>
-                <div class="basic-grid" style="--columnCount: 2; --columnSizeX: 400px; --columnSizeY: 500px;">
-                    <div
-                        class="card card-tall card-wide project"
-                        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
-                    >
-                        
-                        <div class="project-description">
-                            <div class="title">Title</div>
-                            Project description in which I pretend to be productive in my projects.
-                        </div>
-                        <div class="line"></div>
+        <section id="C" style="--margin-top: 100px; --margin-bot: 100px;">
+            <div class="section-content">
+                <h1 class="section-content-title" data-aos="zoom-out" data-aos-delay="150"><span>Projects</span></h1>
+            </div>
+            <div class="projects-content">
+                <div class="card" data-aos="zoom-out" data-aos-offset="200">
+                    <div class="image" style="background-image: url('assets/asset_01.png'); background-position: bottom;">
                     </div>
-
-                    <div
-                        class="card card-tall card-wide project"
-                        style="background-image:url('https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=598&q=80')"
-                    >
-                        
-                        <div class="project-description">
-                            <div class="title">Title</div>
-                            Project description in which I pretend to be productive in my projects.
-                        </div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div
-                        class="card card-tall card-wide project"
-                        style="background-image:url('https://images.unsplash.com/photo-1509198397868-475647b2a1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=598&q=80')"
-                    >
-                        
-                        <div class="project-description">
-                            <div class="title">Title</div>
-                            Project description in which I pretend to be productive in my projects.
-                        </div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div
-                        class="card card-tall card-wide project"
-                        style="background-image:url('https://images.unsplash.com/photo-1561344640-2453889cde5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=617&q=80')"
-                    >
-                        
-                        <div class="project-description">
-                            <div class="title">Title</div>
-                            Project description in which I pretend to be productive in my projects.
-                        </div>
-                        <div class="line"></div>
+                    <div class="project-info">
+                        <h3 class="project-head">
+                            Battle For The Flag
+                        </h3>
+                        <p class="project-description">
+                            Battle For The Flag is a point and drag, strategy, arcade game where you control minions to destroy enemy minions. The goal of the game is to capture the flag of the enemy camp.
+                        </p>
+                        <br>
+                        <p class="project-description">
+                            Created using Unity 3D.
+                        </p>
+                        <a href="https://apps.apple.com/ph/app/battle-for-the-flag/id1530491540?ign-mpt=uo%3D4" class="btn"><b>Visit Here</b></a>
                     </div>
                 </div>
-            </section>
-
-            
-            <section id="C" style="background: url('https://source.unsplash.com/j3LOP2unmX0/1600x900') no-repeat center center/cover;">   
-                <h1>Skills</h1>
-                <div class="basic-grid" style="--columnCount: 2; --columnSizeX: 200px; --columnSizeY: 50px;">
-                    <div class="card skill">
-                        <div class="skill-name">C#</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="card skill">
-                        <div class="skill-name">Php</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="card skill">
-                        <div class="skill-name">ReactJS</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="card skill">
-                        <div class="skill-name">NodeJS</div>
-                        <div class="line"></div>
+                <div class="card" data-aos="zoom-out" data-aos-offset="200">
+                    <div class="image" style="background-image: url('assets/asset_02.png'); background-position: top;"></div>
+                    <div class="project-info">
+                        <h3 class="project-head">
+                            Words Runner    
+                        </h3>
+                        <p class="project-description">
+                            Words Runner is an english spelling course where you compete with three other players. To win the game is to spell and type the fastest.
+                        </p>
+                        <br>
+                        <p class="project-description">
+                            Created using Unity 3D.
+                        </p>
+                        <a href="https://apps.apple.com/ph/app/wordsrunner/id1554217935?ign-mpt=uo%3D4" class="btn"><b>Visit Here</b></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+        
+        <section id="D" style="--margin-top: 100px; --margin-bot: 100px;">   
+            <div class="section-content">
+                <h1 class="section-content-title" data-aos="zoom-out" data-aos-delay="150"><span>Experience</span></h1>
+            </div>
+            <div class="experience">
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="200">
+                    Web Development
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="300">
+                    Web UI/UX
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="400">
+                    Game Development
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="500">
+                    Game Design
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="600">
+                    Content Creation
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="700">
+                    Cooking
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="800">
+                    3D Modeling?
+                </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="900">
+                    2D Art??
+                </div>
+            </div>
+        </section>
 
-            
-            <section id="D" style="background: url('https://source.unsplash.com/x7FxMPZy8xI/1600x900') no-repeat center center/cover;">   
-                <h1>Experience</h1>
-                <div class="basic-grid" style="--columnCount: 2; --columnSizeX: 500px; --columnSizeY: 200px;">
-                    <div class="card experience">
-                        <h1 class="role">Quality Assurance for Graphic Design</h1>
-                        <span class="company">Ripe Concepts Inc.</span>
-                        <p class="description">2018</p>
-                        <div class="line"></div>
+        <section id="E" style="--section-height: 80vh; --margin-top: 100px; --margin-bot: 100px;">   
+            <div class="section-content">
+                <h1 class="section-content-title" data-aos="zoom-out" data-aos-delay="150"><span>Contact</span></h1>
+                <div class="card" data-aos="zoom-out" data-aos-offset="200">
+                    <div class="image" style="background-image: url('assets/boolet.png'); background-position: center;">
                     </div>
-                    <div class="card experience">
-                        <h1 class="role">Quality Assurance for Graphic Design</h1>
-                        <span class="company">Ripe Concepts Inc.</span>
-                        <p class="description">2018</p>
-                        <div class="line"></div>
+                    <div class="project-info">
+                        <h3 class="social-media">
+                            Roald Galano
+                        </h3>
+                        <p class="project-description">
+                            <a href="mailto:galanoroald@gmail.com?subject=Hello, Roald!">galanoroald@gmail.com</a>
+                        </p>
+                        <br>
+                        <p class="social-media">
+                            Social Media
+                        </p>
+                        
+                        <a href="https://www.linkedin.com/in/roald-g/" class="btn social-media-btn"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/garbage.dia/" class="btn social-media-btn"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
                     </div>
                 </div>
-            </section>
-
-            <section id="E" style="background: url('assets/image_01.jpg') no-repeat center/cover;">   
-                <h1>Contact</h1>
-                <div class="contact-card">
-                    <div class="contact-field">
-                        <span class="head"><b>Roald Galano</b></span>
-                    </div>
-                    <div class="contact-field">
-                        <span><a href="mailto:galanoroald@gmail.com?subject=Hello, Roald!">galanoroald@gmail.com</a></span>
-                    </div>
-                    <div class="contact-field">
-                        <span>#0925 111 1111</span>
-                    </div>
-                    <div class="contact-field head" style="padding-top: 20px;">
-                        <span class="head"><b>Check my stuff out</b></span>
-                    </div>
-                    <div class="contact-field">
-                        <a href="https://github.com/galanoroald"><i class="fa fa-github icon" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
-                        <a href="https://orwald.itch.io/"><i class="icon"><img src="https://static.itch.io/images/itchio-textless-white.svg" width="30" height="30" style="margin-bottom: -5px"></i></a>
-                    </div>
-                    <div class="line"></div>
-                </div>
-            </section>
-
-        </div>
+            </div>
+        </section>
     </div>
+      
 </body>
+
 <script src="main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
 
 </html>

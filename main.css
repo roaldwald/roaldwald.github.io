@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #131313;
+    /* background-image: url(assets/hell.jpg); */
+    background-size: cover;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 2rem;
+    justify-content: center;
+}
+
+.container::-webkit-scrollbar {
+    width: 0.50rem;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #131313;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.super-line {
+    position: absolute;
+    width: 200px;
+    height: calc(100vh + 500px);
+    background-color: #3beca3;
+    right: 200px;
+    z-index: -10000;
+}
+
+.super-box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 100px;
+    bottom: 100px;
+    z-index: -10000;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: #3beca3;
+}
+
+.super-box i {
+    font-size: 160px;
+    margin: 20px 26px;
+    color: #3beca3;
+}
+
+/* sections */
+
+section {
+    --section-direction: column;
+    --margin-top: 0px;
+    --margin-bot: 0px;
+    --section-height: auto;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: var(--section-direction);
+    justify-content: center;
+    width: 100%;
+    height: var(--section-height);
+    margin: var(--margin-top) 0 var(--margin-bot) 0;
+}
+
+section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 0 0 5px #000000;
+}
+
+section p {
+    font-size: 1.5rem;
+    opacity: 0.85;
+}
+
+/* section .UWU {
+    animation: 1s linear forwards mySpinner;
+    animation-timeline: flip-timeline;
+}
+
+@scroll-timeline flip-timeline {
+    time-range: 2s;
+}
+
+@keyframes mySpinner {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+} */
+
+/* @supports (animation-timing: works) {
+
+    section h1 {
+        animation: 1s linear forwards flip-card;
+        animation-timeline: flip-timeline;
+        transform: rotateY(-120deg);
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+    }
+} */
+
+.main-header {
+    font-size: 6rem;
+}
+
+.card {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px;
+    /* grid-gap: 1rem; */
+    background: #1f1f1f;
+    margin: 2rem 2rem;
+    transition: all 500ms;
+}
+
+/* .card:hover {
+    box-shadow: 0 0 10px #3beca3;
+} */
+
+.card .image {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gray;
+    transition: all 500ms;
+}
+
+.card .image:hover {
+    background-size: 110%;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.card > div {
+    padding: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #000;
+    counter-reset: #fff;
+    padding: 0.4rem 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 10px #3beca3;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.section-content {
+    margin: 0 100px;
+}
+
+.section-content .section-content-title {
+    margin: 25px 0;
+}
+
+.section-content .section-content-title span {
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3beca3;
+}
+
+.experience {
+    display: block;
+    margin-top: 50px;
+}
+
+.experience .experience-info {
+    font-size: 1.2rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    display: inline-block;
+    color: #fff;
+    background: hsl(155, 60%, 30%);
+    margin: 20px;
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+}
+
+.social-media {
+    font-size: 1.5rem !important;
+}
+
+.social-media-btn {
+    font-size: 1.5rem;
+    margin: 1rem 5px;
+}
+
+/* @media (min-width: 2000) {
+    .main-header {
+        font-size: 12rem;
+    }
+
+    section {
+        flex-direction: column !important;
+    }
+
+    section p {
+        font-size: 6rem;
+    }
+
+    .card {
+        grid-auto-rows: 1000px;
+        margin-bottom: 3rem;
+    }
+
+    .card h3 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .card p {
+        font-size: 3rem;
+    }
+
+    .card > div {
+        padding: 3rem;
+    }
+
+    .container {
+        max-width: 2800px;
+    }
+} */
+
+@media(max-width: 1100px) {
+    .main-header {
+        font-size: 4rem;
+    }
+
+    section {
+        flex-direction: column !important;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card .image {
+        height: 200px;
+    }
+
+    .card {
+        display: block;
+        width: 500px;
+        margin: 10px auto;
+    }
+
+    .section-content {
+        margin: 0 0px;
+    }
+
+    .projects-content {
+        flex-direction: column;
+    }
+
+    .experience {
+        margin: 0;
+    }
+}
+
+@media(max-width: 700px) {
+    .super-box {
+        width: 100px;
+        height: 100px;
+        right: 50px;
+        bottom: 50px;
+        border-width: 15px;
+    }
+
+    .super-box i {
+        font-size: 80px;
+        margin: 10px 13px;
+        color: #3beca3;
+    }
+
+    .main-header {
+        font-size: 4rem;
+    }
+
+    section {
+        flex-direction: column !important;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card .image {
+        height: 200px;
+    }
+
+    .card {
+        display: block;
+        width: auto;
+        margin: 10px auto;
+    }
+
+    .section-content {
+        margin: 0 0px;
+    }
+
+    .projects-content {
+        flex-direction: column;
+    }
+
+    .experience {
+        margin: 0;
+    }
+}
+
