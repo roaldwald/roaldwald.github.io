@@ -97,36 +97,6 @@ section p {
     opacity: 0.85;
 }
 
-/* section .UWU {
-    animation: 1s linear forwards mySpinner;
-    animation-timeline: flip-timeline;
-}
-
-@scroll-timeline flip-timeline {
-    time-range: 2s;
-}
-
-@keyframes mySpinner {
-    from {
-        transform: rotate(180deg);
-    }
-
-    to {
-        transform: rotate(0deg);
-    }
-} */
-
-/* @supports (animation-timing: works) {
-
-    section h1 {
-        animation: 1s linear forwards flip-card;
-        animation-timeline: flip-timeline;
-        transform: rotateY(-120deg);
-        transform-style: preserve-3d;
-        backface-visibility: hidden;
-    }
-} */
-
 .main-header {
     font-size: 6rem;
 }
@@ -147,7 +117,8 @@ section p {
 } */
 
 .card .image {
-    background-size: 100%;
+    --bg-size: 100%;
+    background-size: var(--bg-size);
     background-position: center;
     background-repeat: no-repeat;
     background-color: gray;
