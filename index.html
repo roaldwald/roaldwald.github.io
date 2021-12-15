@@ -17,8 +17,8 @@
         <div class="super-box" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000"><i class="fa fa-arrow-down " aria-hidden="true"></i></div>
 
         <section id="A" style="--section-height: 80vh;">
-            <h1 class="main-header" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">Roald Galano</h1>
-            <p data-aos="fade-left" data-aos-delay="400" data-aos-duration="2000">Web & Game Developer</p>
+            <h1 class="main-header">Roald Galano</h1>
+            <p>Game Developer</p>
         </section>
 
         <section id="B" style="--section-height: 50vh; --margin-top: 100px; --margin-bot: 100px;">   
@@ -82,6 +82,34 @@
                     </div>
                 </div>
             </div>
+            <div class="projects-content">
+                <div class="card" data-aos="zoom-out" data-aos-offset="200">
+                    <div class="image" style="background-image: url('assets/asset_04.jpg'); background-position: center;"></div>
+                    <div class="project-info">
+                        <h3 class="project-head">
+                            Bone Bone Dog
+                        </h3>
+                        <p class="project-description">
+                            Lead the dog towards home by placing bones on the ground. Avoid obstacles that instantly upsets the dog.
+                        </p>
+                        <br>
+                        <a href="https://play.google.com/store/apps/details?id=com.colorfultails.bonebonedog" class="btn"><b>Visit Here</b></a>
+                    </div>
+                </div>
+                <div class="card" data-aos="zoom-out" data-aos-offset="200">
+                    <div class="image" style="background-image: url('assets/asset_05.png'); background-position: center; background-color: #ffe725;"></div>
+                    <div class="project-info">
+                        <h3 class="project-head">
+                            Heart Search
+                        </h3>
+                        <p class="project-description">
+                            Shoot the corrupted hearts while sparing the pure bright hearts.
+                        </p>
+                        <br>
+                        <a href="https://orwald.itch.io/heart-search" class="btn"><b>Visit Here</b></a>
+                    </div>
+                </div>
+            </div>
         </section>
         
         <section id="D" style="--margin-top: 100px; --margin-bot: 100px;">   
@@ -113,6 +141,9 @@
                 <div class="experience-info" data-aos="zoom-out" data-aos-delay="700">
                     Cooking
                 </div>
+                <div class="experience-info" data-aos="zoom-out" data-aos-delay="700">
+                    <span style="color: rgb(161, 7, 7);">RDM</span> Main
+                </div>
             </div>
         </section>
 
@@ -120,7 +151,10 @@
             <div class="section-content">
                 <h1 class="section-content-title" data-aos="zoom-out" data-aos-delay="150"><span>Contact</span></h1>
                 <div class="card" data-aos="zoom-out" data-aos-offset="200">
-                    <div class="image" style="background-image: url('assets/boolet.png'); background-position: center;">
+                    <!-- <div class="image" style="background-image: url('assets/boolet.png'); background-position: center;">
+                    </div> -->
+                    <div id="bg-block">
+                        <canvas id="bg"></canvas>
                     </div>
                     <div class="project-info">
                         <h3 class="social-media">
@@ -144,10 +178,11 @@
       
 </body>
 
-<script src="main.js"></script>
+<script type="module" src="/main.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
+    AOS.init();
 </script> 
+
 
 </html>
