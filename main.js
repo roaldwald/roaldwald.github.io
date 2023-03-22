@@ -1,5 +1,5 @@
 // Find the latest version by visiting https://cdn.skypack.dev/three.
-import * as THREE from 'https://cdn.skypack.dev/pin/three@v0.129.0-chk6X8RSBl37CcZQlxof/mode=imports/optimized/three.js';
+/*import * as THREE from 'https://cdn.skypack.dev/pin/three@v0.129.0-chk6X8RSBl37CcZQlxof/mode=imports/optimized/three.js';
 
 var blockSizeX = document.getElementById('bg-block').offsetWidth
 var blockSizeY = document.getElementById('bg-block').offsetHeight
@@ -55,4 +55,4 @@ function animate() {
     renderer.render(scene, camera);
 }
 
-animate()
+animate()*/
