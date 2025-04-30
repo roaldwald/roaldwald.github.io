@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Roald Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      @import url("main.css");
+    </style>
+  </head>
+  <body>
+    <nav id="sidebar"></nav>
+    <main>
+      <div class="card" style="grid-column: span 4; grid-row: span 6">
+        <h1>Lorem Ipsum</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta eius
+          error. Praesentium animi odit labore consectetur blanditiis porro
+          culpa corporis quasi ut! Sapiente iusto inventore dolores. Neque,
+          atque ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Dolores atque cupiditate nobis, ut, nulla at dicta consequuntur
+          obcaecati magnam earum quasi. Ut maxime reprehenderit autem quidem
+          repellat quis aut tenetur! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati explicabo asperiores veniam pariatur
+          suscipit blanditiis aliquam impedit fugit consequatur eveniet, alias,
+          porro nostrum autem nesciunt laborum veritatis necessitatibus fugiat
+          ex.
+        </p>
+      </div>
+      <div class="card" style="grid-column: span 4; grid-row: span 6">
+        <h1>Lorem Ipsum</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta eius
+          error. Praesentium animi odit labore consectetur blanditiis porro
+          culpa corporis quasi ut! Sapiente iusto inventore dolores. Neque,
+          atque ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Dolores atque cupiditate nobis, ut, nulla at dicta consequuntur
+          obcaecati magnam earum quasi. Ut maxime reprehenderit autem quidem
+          repellat quis aut tenetur! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati explicabo asperiores veniam pariatur
+          suscipit blanditiis aliquam impedit fugit consequatur eveniet, alias,
+          porro nostrum autem nesciunt laborum veritatis necessitatibus fugiat
+          ex.
+        </p>
+      </div>
+      <div class="card" style="grid-column: span 4; grid-row: span 6">
+        <h1>Lorem Ipsum</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta eius
+          error. Praesentium animi odit labore consectetur blanditiis porro
+          culpa corporis quasi ut! Sapiente iusto inventore dolores. Neque,
+          atque ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Dolores atque cupiditate nobis, ut, nulla at dicta consequuntur
+          obcaecati magnam earum quasi. Ut maxime reprehenderit autem quidem
+          repellat quis aut tenetur! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati explicabo asperiores veniam pariatur
+          suscipit blanditiis aliquam impedit fugit consequatur eveniet, alias,
+          porro nostrum autem nesciunt laborum veritatis necessitatibus fugiat
+          ex.
+        </p>
+      </div>
+      <div class="card" style="grid-column: span 4; grid-row: span 6">
+        <h1>Lorem Ipsum</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta eius
+          error. Praesentium animi odit labore consectetur blanditiis porro
+          culpa corporis quasi ut! Sapiente iusto inventore dolores. Neque,
+          atque ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Dolores atque cupiditate nobis, ut, nulla at dicta consequuntur
+          obcaecati magnam earum quasi. Ut maxime reprehenderit autem quidem
+          repellat quis aut tenetur! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati explicabo asperiores veniam pariatur
+          suscipit blanditiis aliquam impedit fugit consequatur eveniet, alias,
+          porro nostrum autem nesciunt laborum veritatis necessitatibus fugiat
+          ex.
+        </p>
+      </div>
+      <div class="card" style="grid-column: span 4; grid-row: span 6">
+        <h1>Lorem Ipsum</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta eius
+          error. Praesentium animi odit labore consectetur blanditiis porro
+          culpa corporis quasi ut! Sapiente iusto inventore dolores. Neque,
+          atque ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Dolores atque cupiditate nobis, ut, nulla at dicta consequuntur
+          obcaecati magnam earum quasi. Ut maxime reprehenderit autem quidem
+          repellat quis aut tenetur! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati explicabo asperiores veniam pariatur
+          suscipit blanditiis aliquam impedit fugit consequatur eveniet, alias,
+          porro nostrum autem nesciunt laborum veritatis necessitatibus fugiat
+          ex.
+        </p>
+      </div>
+      <div class="card" style="grid-column: span 4; grid-row: span 6">
+        <h1>Lorem Ipsum</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta eius
+          error. Praesentium animi odit labore consectetur blanditiis porro
+          culpa corporis quasi ut! Sapiente iusto inventore dolores. Neque,
+          atque ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Dolores atque cupiditate nobis, ut, nulla at dicta consequuntur
+          obcaecati magnam earum quasi. Ut maxime reprehenderit autem quidem
+          repellat quis aut tenetur! Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati explicabo asperiores veniam pariatur
+          suscipit blanditiis aliquam impedit fugit consequatur eveniet, alias,
+          porro nostrum autem nesciunt laborum veritatis necessitatibus fugiat
+          ex.
+        </p>
+      </div>
+    </main>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    fetch("/navbar.html")
+      .then((t) => {
+        if (t.ok) {
+          console.log("Navbar fetched.");
+
+          return t.text();
+        }
+        throw new Error("Something went wrong..");
+      })
+      .then((t) => {
+        document.getElementById("sidebar").innerHTML = t;
+        document
+          .getElementsByClassName("page")[1]
+          .setAttribute("class", "active");
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      })
+      .catch((e) => {
+        document.getElementById("sidebar").innerHTML = e;
+        console.log("Error fetching navbar.");
+      })
+      .finally(() => {
+        console.log("Finished.");
+      });
+  </script>
+</html>
